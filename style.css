@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #0f172a;
+  background: #373d49;
   color: white;
 }
 
@@ -15,7 +15,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #0d1b2a;
+  background: #242e38;
   z-index: 1000;
   padding: 20px 8%;
 }
@@ -50,7 +50,7 @@ header {
 }
 
 .home {
-  background: linear-gradient(135deg, #0f172a 0%, #112240 100%);
+  background: #232832;
   position: relative;
   z-index: 2;
   overflow: hidden;
@@ -139,7 +139,8 @@ header {
 .home-img img {
   width: 350px;
   border-radius: 50%;
-  box-shadow: 0 10px 25px rgba(0, 240, 255, 0.2);
+  border: 5px solid #00e0ff;
+  box-shadow: 0 0 25px #00e0ff;
   transition: transform 0.3s;
   margin-left:190px;
 }
@@ -150,7 +151,7 @@ header {
 
 
 .about {
-  background: #0f172a;
+  background: #2b313d;
   padding: 100px 10%;
   color: white;
 }
@@ -228,7 +229,7 @@ footer {
 }
 #services {
   padding: 60px 20px;
-  background: #0a192f;
+  background: #232832;
   text-align: center;
   color: #fff;
 }
@@ -251,7 +252,9 @@ footer {
   background: #112240;
   padding: 30px 20px;
   border-radius: 12px;
-  width: 280px;
+  width: 350px;
+  height:250px;
+
   box-shadow: 0 5px 20px rgba(0, 240, 255, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -279,7 +282,7 @@ footer {
 }
 #skills {
   padding: 60px 20px;
-  background: #0a192f;
+  background: #252a32;
   color: #fff;
 }
 
@@ -383,7 +386,7 @@ footer {
 
 #contact {
   padding: 60px 10%;
-  background: #0a192f;
+  background: #2a323d;
   color: #fff;
 }
 
